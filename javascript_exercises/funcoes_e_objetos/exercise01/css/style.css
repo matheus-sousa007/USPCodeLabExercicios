@@ -1,0 +1,23 @@
+:root{
+    margin: 0;
+    padding: 0;
+    align-content: self;
+
+    --backg-color: white;
+    --main-text-color: black;
+}
+
+.dark-mode{
+    --backg-color: black;
+    --main-text-color: white;
+}
+
+.light-mode{
+    --backg-color: white;
+    --main-text-color: black;
+}
+
+body{
+    background-color: var(--backg-color);
+    color: var(--main-text-color);
+}
